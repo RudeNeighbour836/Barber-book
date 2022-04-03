@@ -4,5 +4,30 @@
     "number": "0724551906",
     "service": "Facial Scrub",
     "date": "2022-04-20"
+  },
+  {
+    "name": "Martin Mwiko",
+    "number": "0722762609",
+    "service": "Special Haircut",
+    "date": "2022-04-20"
+  },
+  {
+    "name": "Martin Mwiko",
+    "number": "0722762609",
+    "service": "Special Haircut",
+    "date": "2022-04-20",
+    "_locals": {}
+  },
+  {
+    "name": "Maria Wangari",
+    "number": "0721582291",
+    "service": "Facial Scrub",
+    "date": "2022-05-04"
+  },
+  {
+    "name": "Alex Kimani",
+    "number": "0723573890",
+    "service": "Facial Scrub",
+    "date": "2022-04-28"
   }
 ]

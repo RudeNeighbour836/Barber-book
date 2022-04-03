@@ -13,6 +13,9 @@
   footer{
     text-align: center;
     background: rgba(47, 103, 177, 0.6);
+    height: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .heading{
     
@@ -124,6 +127,27 @@
     margin-bottom: 6px;
     margin-left: 7px;
   }
+              footer.confirmation{
+                    text-align: center;
+                    background: rgba(47, 103, 177, 0.6);
+                    height: 10%;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+              h2.confirmation {
+                display: inline-block;
+                color: #d8dce4;
+                font-weight: 700;
+                margin-left: 7px;
+                margin-top: 70px;
+                margin-bottom: 70px;
+              }
+            
+              body.confirmation{
+                background-color: darkslategrey;
+                color: lightgray;
+                text-align: center;
+          }
   
   h2 {
     display: inline-block;
