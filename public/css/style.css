@@ -12,7 +12,7 @@
   }
   footer{
     text-align: center;
-    background: rgba(47, 103, 177, 0.6);
+    background: #008080;
     height: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -127,24 +127,20 @@
     margin-bottom: 6px;
     margin-left: 7px;
   }
-              footer.confirmation{
-                    text-align: center;
-                    background: rgba(47, 103, 177, 0.6);
-                    height: 10%;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                }
               h2.confirmation {
                 display: inline-block;
                 color: #d8dce4;
                 font-weight: 700;
                 margin-left: 7px;
-                margin-top: 70px;
-                margin-bottom: 70px;
+                margin-top: 30%;
+                margin-bottom: 100px;
               }
             
               body.confirmation{
-                background-color: darkslategrey;
+                background-image: url("/img/background.jpg");
+                background-size: cover;
+                background-position: center;
+                background-color: #f6a0a9;
                 color: lightgray;
                 text-align: center;
           }
