@@ -6,7 +6,6 @@ const fs = require('fs');
 const filename = 'details.json';
 const urlEncodedParser = bodyParser.urlencoded({extended: false});
 
-//load data from JSON
 let rawData = fs.readFileSync(filename);
 let data = JSON.parse(rawData);
 
@@ -18,9 +17,9 @@ app.use(express.static('public'));
 app.get('/', function(request, response){
     response.render('Barber_Black_Sheep');
 });
-//restful Get web serices
+
 app.get('/book', function(request, response){
-    data.sort((a, b) =>(a.name > b.name)? 1 : -1);
+    data.sort((a, b, c, d) =>(a.name > b.name > c.name > d.name)? 1 : -1);
     response.send(data);
 });
 
@@ -31,6 +30,8 @@ app.post('/book', urlEncodedParser,function(request, response){
 
     let newbooking =
         {
+            name: request.body.booker_name,
+            number: request.body.booker_number,
             service: request.body.service,
             date: request.body.date,
         };
