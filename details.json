@@ -9,15 +9,13 @@
     "name": "Czar",
     "number": "254798871021",
     "service": "Hair and Beard",
-    "date": "2022-04-14",
-    "_locals": {}
+    "date": "2022-04-14"
   },
   {
     "name": "Will",
     "number": "45612134",
     "service": "Regular Haircut",
-    "date": "2022-04-12",
-    "_locals": {}
+    "date": "2022-04-12"
   },
   {
     "name": "Jane Doe",
@@ -30,5 +28,59 @@
     "number": "0725789415",
     "service": "Cut",
     "date": "2022-04-26"
+  },
+  {
+    "name": "Martin Mwiko",
+    "number": "0722762609",
+    "service": "Special Haircut",
+    "date": "2022-04-20"
+  },
+  {
+    "name": "Martin Mwiko",
+    "number": "0722762609",
+    "service": "Special Haircut",
+    "date": "2022-04-20"
+  },
+  {
+    "name": "Maria Wangari",
+    "number": "0721582291",
+    "service": "Facial Scrub",
+    "date": "2022-05-04"
+  },
+  {
+    "name": "Alex Kimani",
+    "number": "0723573890",
+    "service": "Facial Scrub",
+    "date": "2022-04-28"
+  },
+  {
+    "name": "George Mwangi",
+    "number": "0728678902",
+    "service": "Massage",
+    "date": "2022-04-30"
+  },
+  {
+    "name": "George Mwangi",
+    "number": "0728678902",
+    "service": "Massage",
+    "date": "2022-04-30"
+  },
+  {
+    "name": "Jim Njagi",
+    "number": "0753789564",
+    "service": "Haircut & Dye",
+    "date": "2022-04-30"
+  },
+  {
+    "name": "Jim Njagi",
+    "number": "0753789564",
+    "service": "Haircut & Dye",
+    "date": "2022-04-30"
+  },
+  {
+    "name": "Jean Joyce",
+    "number": "0725678904",
+    "service": "Haircut & Dye",
+    "date": "2022-04-09"
   }
 ]
