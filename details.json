@@ -4,5 +4,31 @@
     "number": "0724551906",
     "service": "Facial Scrub",
     "date": "2022-04-20"
+  },
+  {
+    "name": "Czar",
+    "number": "254798871021",
+    "service": "Hair and Beard",
+    "date": "2022-04-14",
+    "_locals": {}
+  },
+  {
+    "name": "Will",
+    "number": "45612134",
+    "service": "Regular Haircut",
+    "date": "2022-04-12",
+    "_locals": {}
+  },
+  {
+    "name": "Jane Doe",
+    "number": "45612134565",
+    "service": "Massage",
+    "date": "2022-04-06"
+  },
+  {
+    "name": "Ken",
+    "number": "0725789415",
+    "service": "Cut",
+    "date": "2022-04-26"
   }
 ]
