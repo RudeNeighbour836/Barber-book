@@ -30,11 +30,17 @@
   }
   #booking {
     font-family: "Montserrat", sans-serif;
-    background-image: url("/public/barber.jpg");
+    background-image: url("/img/barber.jpg");
     background-size: cover;
     background-position: center;
   }
-  
+  .message{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-weight: 700;
+  }
   #booking::before {
     content: "";
     position: absolute;
@@ -160,4 +166,3 @@
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
   }
-  

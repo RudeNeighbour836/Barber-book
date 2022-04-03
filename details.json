@@ -100,5 +100,13 @@
   {
     "service": "Massage",
     "date": "2022-04-13"
+  },
+  {
+    "service": "Special Haircut",
+    "date": "2022-04-07"
+  },
+  {
+    "service": "Haircut & Dye",
+    "date": "2022-04-20"
   }
 ]
