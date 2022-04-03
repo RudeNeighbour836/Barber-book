@@ -8,6 +8,7 @@ const urlEncodedParser = bodyParser.urlencoded({extended: false});
 
 let rawData = fs.readFileSync(filename);
 let data = JSON.parse(rawData);
+console.log(data);
 
 app.set('views','pages');
 app.set('view engine', 'hbs');
@@ -17,11 +18,23 @@ app.use(express.static('public'));
 app.get('/', function(request, response){
     response.render('Barber_Black_Sheep');
 });
+app.get('/view_booking', function(request, response){
+    response.render('view_reservation');
+});
 
 app.get('/book', function(request, response){
     data.sort((a, b, c, d) =>(a.name > b.name > c.name > d.name)? 1 : -1);
     response.send(data);
 });
+
+app.post('/view_booking', function(request, response){
+    const fs = require('fs');
+    const path = require('path');
+
+    data = fs.readFileSync(filename);
+    response.render('view_reservation', data);
+
+})
 
 app.post('/book', urlEncodedParser,function(request, response){
     
