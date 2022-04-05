@@ -84,41 +84,9 @@
     "date": "2022-04-09"
   },
   {
-<<<<<<< HEAD
-    "name": "Jean Joyce",
-    "number": "0725678904",
-    "service": "Haircut & Dye",
-    "date": "2022-04-09",
-    "_locals": {}
-  },
-  {
-    "name": "Jean Joyce",
-    "number": "0725678904",
-    "service": "Haircut & Dye",
-    "date": "2022-04-09"
-  },
-  {
-    "name": "Jean Joyce",
-    "number": "0725678904",
-    "service": "Haircut & Dye",
-    "date": "2022-04-09"
-  },
-  {
-    "name": "Martin Mwiko",
-    "number": "-1",
-    "service": "Facial Scrub",
-    "date": "2022-04-28"
-=======
     "name": "joe",
     "number": "0785964123",
     "service": "Massage",
     "date": "2022-05-05"
-  },
-  {
-    "name": "Walker",
-    "number": "0745896698",
-    "service": "Massage",
-    "date": "2022-05-05"
->>>>>>> 47a48f1be7f61b9f2686c73e63d4bad5d9a75005
   }
 ]
