@@ -186,9 +186,6 @@
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
   }
-  .submit-btn{
-    
-  }
   
   .booking-form .submit-btn:hover,
   .booking-form .submit-btn:focus {
