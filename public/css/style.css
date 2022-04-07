@@ -14,6 +14,7 @@
     text-align: center;
     background: #008080;
     height: 10%;
+    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -155,7 +156,7 @@
           }
 
   
-  h2 {
+  .h2 {
     display: inline-block;
     color: #3e485c;
     font-weight: 700;
@@ -208,3 +209,30 @@
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
   }
+
+  .nav{
+    min-height: 10vh;
+    background-color: #008080;
+    color: white;
+    display: flex;
+    align-items: right;
+  }
+  a:link {
+      color: white;
+    
+    }
+    
+    a:visited {
+      color:aqua;
+    }
+    
+    a:hover {
+      color: hotpink;
+    }
+    
+    a:active {
+      color: blue;
+    }
+    h5{
+      align-items: right;
+    }
