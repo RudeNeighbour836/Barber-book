@@ -100,5 +100,17 @@
     "number": "0724678905",
     "service": "Cut",
     "date": "2022-04-20"
+  },
+  {
+    "name": "Jack",
+    "number": "0756789234",
+    "service": "Facial Scrub",
+    "date": "2022-05-19"
+  },
+  {
+    "name": "Maya Patricia",
+    "number": "0745672341",
+    "service": "Haircut & Dye",
+    "date": "2022-04-30"
   }
 ]

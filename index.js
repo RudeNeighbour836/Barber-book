@@ -8,7 +8,7 @@ const urlEncodedParser = bodyParser.urlencoded({extended: false});
 
 let rawData = fs.readFileSync(filename);
 let data = JSON.parse(rawData);
-console.log(data);
+
 
 app.set('views','pages');
 app.set('view engine', 'hbs');
@@ -30,11 +30,12 @@ app.get('/book', function(request, response){
 app.post('/view_booking', function(request, response){
     const fs = require('fs');
     const path = require('path');
-
+   
     data = fs.readFileSync(filename);
-    response.render('view_reservation', data);
-
-})
+    last= data[Object.keys(data).pop()];
+   
+    response.render('view_reservation', last);
+});
 
 app.post('/book', urlEncodedParser,function(request, response){
     
