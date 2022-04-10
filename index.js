@@ -103,7 +103,7 @@ if (process.env.NODE_ENV !== 'production') {
   app.use(passport.session())
   app.use(methodOverride('_method'))
   
-  app.get('/landing', checkAuthenticated, (req, res) => {
+  app.get('/index', checkAuthenticated, (req, res) => {
     res.render('index.ejs', { name: req.user.name })
   })
   app.get('/login', checkNotAuthenticated, (req, res) => {
@@ -111,7 +111,7 @@ if (process.env.NODE_ENV !== 'production') {
   })
   
   app.post('/login', checkNotAuthenticated, passport.authenticate('local', {
-    successRedirect: '/index.ejs',
+    successRedirect: '/index',
     failureRedirect: '/login',
     failureFlash: true
   }))

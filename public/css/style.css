@@ -1,3 +1,13 @@
+input[type=submit]{
+  background-color: #06a7e6;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 2px 1400px;
+  cursor: pointer;
+  border-radius: 15%;
+}
 .section {
     position: relative;
     height: 100vh;
