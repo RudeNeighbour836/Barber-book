@@ -10,7 +10,6 @@ const methodOverride = require('method-override')
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
-const port2 = process.env.PORT || 3001;
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const filename = 'details.json';
@@ -160,5 +159,5 @@ function checkNotAuthenticated(req, res, next) {
   next()
 }
 
-app.listen(port2)
-console.log(`Server is listening to port ${port2}`)
+app.listen(3001)
+console.log('listening to port 3001')
